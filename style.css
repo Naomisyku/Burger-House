@@ -56,7 +56,7 @@
 }
 
 .main-navi h3{
-    font-family: 'Montserrat';
+    font-family: 'Bebas Neue';
     font-size: 20px;
     font-weight: 500;
     display:flex;
@@ -75,7 +75,9 @@
     color:black ;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 90% ;
+    font-size: 25px ;
+    font-family: Bebas Neue;
+    
 }
 
 .main-navi li a:link,
@@ -358,12 +360,12 @@ h1{
     display: flex;
     min-height: 100vh;
     /* padding: 20px; */
-    outline: solid 4px rgb(199, 55, 23);
+    /* outline: solid 4px rgb(199, 55, 23); */
     
 }
 
 .form-title{
-    height: 100px;
+    /* height: 100px; */
     display: flex;
     justify-content:center;
     align-items: center; 
@@ -388,9 +390,21 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-    outline: dashed 4px rgb(199, 55, 23);
+    min-height:90vh;
+    /* padding: 100px; */
+    /* outline: dashed 4px rgb(199, 55, 23); */
 
+}
+
+.btn3{
+    background-color: red;
+    font-family: Alfa Slab One;
+    font-size: 25px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    text-align: center; 
 }
 
 .title-form{
@@ -399,7 +413,7 @@ h1{
 }
 
 .bottle{
-    outline: solid 4px rgb(23, 199, 134);
+    /* outline: solid 4px rgb(23, 199, 134); */
    
      display: flex;
      flex-direction: column;
@@ -411,25 +425,33 @@ h1{
 
 
 .fries{
-    outline: dashed 4px rgb(23, 126, 199);
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* margin-left: 1200px; */
+    /* outline: dashed 4px rgb(23, 126, 199); */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
 }
 
 .inpute{
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     margin: 15px;
     padding: 10px;
     
 }
 
+.firstpart{
+    
+     
+    
+}
+
+
 .gjigi{
     display: flex;
     align-items: center;
     justify-content: center; 
+    /* outline: solid 4px rgb(23, 199, 134); */
 }
 
 .last-section{
@@ -468,25 +490,33 @@ h1{
 
 .information li a{
     color:white;
+    text-decoration:none;
+    display:flex;
 }
 
 
+.information li a h2{
+  padding-left: 5px;
+  font-size:15px;
+  font-family: Montserrat;
+}
+
 .social{
-    outline: solid 2px rgb(106, 52, 27);
-   
+   outline: solid 2px rgb(106, 52, 27);
+   /* flex-grow:1; */
 
 }
 
 .rights{
     outline: solid 2px rgb(27, 2, 2);
+    justify-content: end;
     
 }
 
 .qysh{
     outline: solid 4px rgb(10, 128, 212);
     display:flex;
-    padding:20px;
-    justify-content: space-around;
+    
 }
 
 .social-link{
@@ -502,23 +532,24 @@ h1{
 
 .secondlogo{
     /* outline: solid 2px rgb(23, 199, 70); */
-    padding: 20px;
-    /* justify-content: left; */
-    /* padding-top: 100px;
-    padding-left: 30px;
-    max-width:700px; */
+    padding: 20px;   
+    padding-top: 60px;
+    max-width:700px;
 }
 
 .secondlogo p{
-    font-size: 200%
+    font-size: 30px;
+    font-family: Montserrat;
+
+    
 }
 
 .together{
     display: flex;
     min-height:90vh;
-    /* justify-content: space-around; */
-    /* max-width: 1180px;
-    margin: 0 auto; */
     color:white;
 }
 
+.term{
+    padding:10px;
+}
