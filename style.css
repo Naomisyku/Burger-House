@@ -359,13 +359,12 @@ h1{
 .section-form{
     display: flex;
     min-height: 100vh;
-    /* padding: 20px; */
     /* outline: solid 4px rgb(199, 55, 23); */
     
 }
 
 .form-title{
-    /* height: 100px; */
+    
     display: flex;
     justify-content:center;
     align-items: center; 
@@ -373,6 +372,7 @@ h1{
 }
 
 .form-title h4{
+    padding-top:30px;
     font-family: Bebas Neue;
     font-size: 20px;
     font-weight: 200;
@@ -390,8 +390,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height:90vh;
-    /* padding: 100px; */
+    padding-top:30px;
+    
     /* outline: dashed 4px rgb(199, 55, 23); */
 
 }
@@ -399,12 +399,14 @@ h1{
 .btn3{
     background-color: red;
     font-family: Alfa Slab One;
+    width: 335px;
     font-size: 25px;
     color: white;
     margin: 15px;
     padding: 10px;
     border: none;
-    text-align: center; 
+    text-align: center;
+
 }
 
 .title-form{
@@ -418,9 +420,6 @@ h1{
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-    /* flex-direction: column; */
-    /*justify-content: left; */
-    /* margin-right: 1150px;  */
 }
 
 
@@ -440,17 +439,13 @@ h1{
     
 }
 
-.firstpart{
-    
-     
-    
-}
 
 
 .gjigi{
     display: flex;
     align-items: center;
     justify-content: center; 
+    padding-top:40px;
     /* outline: solid 4px rgb(23, 199, 134); */
 }
 
@@ -502,21 +497,21 @@ h1{
 }
 
 .social{
-   outline: solid 2px rgb(106, 52, 27);
+   /* outline: solid 2px rgb(106, 52, 27); */
    /* flex-grow:1; */
 
 }
 
 .rights{
-    outline: solid 2px rgb(27, 2, 2);
+    /* outline: solid 2px rgb(27, 2, 2); */
     justify-content: end;
     
 }
 
 .qysh{
-    outline: solid 4px rgb(10, 128, 212);
+    /* outline: solid 4px rgb(10, 128, 212); */
     display:flex;
-    
+    justify-content: space-evenly;
 }
 
 .social-link{
