@@ -1,0 +1,524 @@
+
+
+* {
+    margin: 0;
+    padding: 0; 
+ }
+
+ html {
+    background-color: #fff;
+    color: rgba(5, 5, 5, 0.856);
+    text-rendering: optimizeLegibility;
+}
+ header{   
+    padding: 5px;
+}
+
+.secu{
+    background-color: #f8b33c;
+    min-height: 100vh
+    
+}
+
+.hero-food{
+    padding: 10px;
+    display: flex;
+}
+
+
+
+.navi1{
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+
+}
+
+
+
+
+.logo{
+    height: 60px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+
+.main-navi{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    z-index: 10;
+    /* outline: solid 3px red; */
+}
+
+.main-navi h3{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    display:flex;
+    justify-content: right;
+}
+
+.main-navi li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+
+}
+
+.main-navi li a{
+    color:black ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90% ;
+}
+
+.main-navi li a:link,
+.main-navi li a:visited {
+    padding: 8px 0 8px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-navi li a:hover,
+.main-navi li a:active {
+    border-bottom: 2px solid #e1781c ;
+}
+
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 300% ;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.hero-text-box h5{
+    outline: dashed 2px rgb(1, 1, 1);
+    padding:5px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.hero-text-box h1{
+    font-family: Alfa Slab One;
+    font-size: 100px;
+    color: rgb(53, 11, 11);
+    text-shadow: 2px 2px white;
+}
+
+.big{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size:110%;
+}
+
+.hero-text-box{
+    /* outline: solid 1px rgb(199, 23, 23); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foods{
+    /* outline: solid 1px rgb(199, 23, 23); */
+    position: absolute;
+    top:-5%;
+    left:30%; 
+}
+
+
+
+.foods h3{
+    color: white;
+    
+}
+
+.kuqo{
+    position: absolute;
+    top:49%;
+    left:20%;
+    width: 260px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 70%;
+    background-color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    outline: dashed 2px white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.leku{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size:300%;
+}
+
+.leku2{
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size:200%;
+}
+
+
+.sec1{
+    min-height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* outline: solid 3px rgb(199, 23, 23);  */
+    
+}
+
+.firstSection{
+    padding:10px;
+}
+
+.secondSection{
+  padding:10px;
+  /* outline: solid 3px rgb(199, 23, 23);  */
+}
+
+.imgOne{
+  padding-bottom:10px;
+}
+
+.imgTwo{
+    padding-top:10px;
+  }
+
+
+.section-burger{
+    
+    /* outline: solid 3px rgb(199, 23, 23);  */
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    max-width: 1180px; 
+    margin: 0 auto; 
+   
+}
+
+.title{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* outline: solid 4px rgb(23, 93, 199); */
+  padding:25px;  
+}
+
+.title h3{
+    font-family: Alfa Slab One;
+    font-size: 40px;
+    color: rgb(53, 11, 11);
+    text-shadow: white;
+}
+
+.title h4{
+    font-family: Montserrat;
+}
+
+.btn1{
+    background-color:#f8b33c ;
+    border: none;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.btn{
+    background-color: red;
+    font-family: Alfa Slab One;
+    font-size: 15px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+.sec2{
+    /* outline: solid 4px rgb(23, 93, 199); */
+    padding: 20px;
+    min-height: 100vh;
+    
+}
+
+/*.burgerat{
+    outline: solid 4px rgb(23, 93, 199); 
+}*/
+
+.bigi{
+    /* outline: solid 1px rgb(23, 93, 199); */
+    height: 270px;
+}
+
+.burger-photo{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: column; 
+     /*outline: solid 1px rgb(23, 93, 199);*/
+}
+
+.burger-photo h2{
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 5px;
+    
+}
+
+.burger-photo h4{
+    font-family: Montserrat;
+    font-size: 14px;
+    margin:10px;
+}
+
+.row{
+    display:flex;
+    justify-content: space-around;
+}
+
+.events{
+    min-height: 100vh;
+    /*outline: solid 4px rgb(23, 93, 199);*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.kartolin{
+    display: flex;
+    /* outline: solid 1px rgba(141, 137, 137, 0.207); */
+    margin:20px;
+    padding:10px;
+    box-shadow: 10px 10px 20px 10px rgb(0 0 0 / 0.2);
+}
+
+.firstevent{
+    /* outline: solid 4px rgb(199, 55, 23); */
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+   
+}
+
+.topat{
+    /* outline: solid 4px rgb(199, 55, 23); */
+    margin-top: 180px;
+    padding:5px
+}
+
+.firstevent h1{
+    font-family: Alfa Slab One;
+    font-size: 200%;
+    color: rgb(53, 11, 11);
+}
+
+.firstevent h2{
+    font-family: Bebas Neue;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.photo-event{
+    /* outline: dashed 3px rgb(23, 199, 126); */
+    display: flex;
+    justify-content: right;
+    max-width: 100%;
+    height: auto;
+}
+
+.section-form{
+    display: flex;
+    min-height: 100vh;
+    /* padding: 20px; */
+    outline: solid 4px rgb(199, 55, 23);
+    
+}
+
+.form-title{
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.form-title h4{
+    font-family: Bebas Neue;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.form-title h2{
+    font-family: Alfa Slab One;
+    font-size: 40px;
+    font-weight: 300;
+    color: rgb(53, 11, 11);
+    text-shadow: white;
+}
+
+.myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    outline: dashed 4px rgb(199, 55, 23);
+
+}
+
+.title-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottle{
+    outline: solid 4px rgb(23, 199, 134);
+   
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+    /* flex-direction: column; */
+    /*justify-content: left; */
+    /* margin-right: 1150px;  */
+}
+
+
+.fries{
+    outline: dashed 4px rgb(23, 126, 199);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* margin-left: 1200px; */
+}
+
+.inpute{
+    font-size: 15px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.gjigi{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.last-section{
+   min-height: 100vh;
+   background-image: url(images/back.png);
+   opacity: calc(0.92);
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+.last-section p{
+    color: #fff;
+    
+}
+
+.myinfo{
+    display: flex;
+    align-items: center;
+    /* width: 140px; */
+    /* outline: solid 4px rgb(23, 126, 199); */
+}
+
+.information{
+    /* outline: solid 4px rgb(23, 126, 199); */
+   padding: 20px;
+   list-style: none;
+}
+
+
+.information li a{
+    color:white;
+}
+
+
+.social{
+    outline: solid 2px rgb(106, 52, 27);
+   
+
+}
+
+.rights{
+    outline: solid 2px rgb(27, 2, 2);
+    
+}
+
+.qysh{
+    outline: solid 4px rgb(10, 128, 212);
+    display:flex;
+    padding:20px;
+    justify-content: space-around;
+}
+
+.social-link{
+    display:flex;
+    list-style: none;
+}
+
+.social-link li a{
+    color:white;
+    padding:5px;
+    
+}
+
+.secondlogo{
+    /* outline: solid 2px rgb(23, 199, 70); */
+    padding: 20px;
+    /* justify-content: left; */
+    /* padding-top: 100px;
+    padding-left: 30px;
+    max-width:700px; */
+}
+
+.secondlogo p{
+    font-size: 200%
+}
+
+.together{
+    display: flex;
+    min-height:90vh;
+    /* justify-content: space-around; */
+    /* max-width: 1180px;
+    margin: 0 auto; */
+    color:white;
+}
+
