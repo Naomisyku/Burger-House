@@ -1,0 +1,1 @@
+Projekti i pare i intershipit
