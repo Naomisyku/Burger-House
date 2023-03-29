@@ -10,13 +10,15 @@
     color: rgba(5, 5, 5, 0.856);
     text-rendering: optimizeLegibility;
 }
+
  header{   
     padding: 5px;
 }
 
 .secu{
     background-color: #f8b33c;
-    min-height: 100vh
+    min-height: 100%;
+    padding-bottom: 20%;
     
 }
 
@@ -146,10 +148,10 @@ h1{
 
 .kuqo{
     position: absolute;
-    top:49%;
+    top:55%;
     left:20%;
-    width: 260px;
-    height: 260px;
+    width: 150px;
+    height: 150px;
     padding: 10px;
     border-radius: 70%;
     background-color: red;
@@ -160,8 +162,8 @@ h1{
 
 .circle{
     outline: dashed 2px white;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     display:flex;
     justify-content: center;
@@ -173,28 +175,56 @@ h1{
 .leku{
     font-weight: 200;
     text-transform: uppercase;
-    font-size:300%;
+    font-size:200%;
 }
 
 .leku2{
     font-weight: 200;
     text-transform: uppercase;
-    font-size:200%;
+    font-size:150%;
 }
 
 
 .sec1{
-    min-height: 100vh;
+   margin-left: 8%;
     display: flex; 
     align-items: center;
     justify-content: center;
-    padding: 20px;
+  
     /* outline: solid 3px rgb(199, 23, 23);  */
     
 }
 
 .firstSection{
     padding:10px;
+    
+}
+
+.textone{
+ position: absolute;
+ margin-top: -25%;
+ color: #fff;
+ margin-left: 2%;
+ font-family: Bebas Neue;
+ font-size: 30px;
+}
+
+.texttwo{
+    position: absolute;
+    margin-top: -12%;
+    color: #fff;
+    margin-left: 1%;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+
+.textthird{
+    position: absolute;
+    margin-top: -12%;
+    color: #fff;
+    margin-left: 1%;
+    font-family: Bebas Neue;
+    font-size: 30px;
 }
 
 .secondSection{
@@ -217,8 +247,8 @@ h1{
     display:flex;
     justify-content: center;
     align-items:center;
-    max-width: 1180px; 
-    margin: 0 auto; 
+    max-width:100%; 
+    margin-top: 5%; 
    
 }
 
@@ -229,7 +259,10 @@ h1{
   justify-content: center;
   flex-direction: column;
   /* outline: solid 4px rgb(23, 93, 199); */
-  padding:25px;  
+  /* padding:25px;   */
+  padding-right: 14%;
+  padding-left: 15%;
+  margin-bottom: 2%;
 }
 
 .title h3{
@@ -266,7 +299,7 @@ h1{
 .sec2{
     /* outline: solid 4px rgb(23, 93, 199); */
     padding: 20px;
-    min-height: 100vh;
+    max-height: 100%;
     
 }
 
@@ -307,7 +340,8 @@ h1{
 }
 
 .events{
-    min-height: 100vh;
+    max-height: 100%;
+    margin-top: 5%;
     /*outline: solid 4px rgb(23, 93, 199);*/
     display: flex;
     justify-content: center;
@@ -358,7 +392,8 @@ h1{
 
 .section-form{
     display: flex;
-    min-height: 100vh;
+    max-height: 100%;
+    margin-top: 5%;
     /* outline: solid 4px rgb(199, 55, 23); */
     
 }
@@ -419,7 +454,16 @@ h1{
    
      display: flex;
      flex-direction: column;
-     justify-content: space-around;
+     /* justify-content: space-around; */
+}
+.tabasco{
+    margin-top: -65%;
+    width: 80%;
+    margin-left: 50%;
+}
+.burger-form{
+    margin-top: -20%;
+
 }
 
 
@@ -450,20 +494,8 @@ h1{
 }
 
 .last-section{
-   min-height: 100vh;
-   background-image: url(images/back.png);
-   opacity: calc(0.92);
-   background-repeat: no-repeat;
-   height: 100vh;
-   background-size: cover;
-   background-position: center;
-    display: flex;
-    flex-direction: column;
-   
+    width: 100%;
 }
-
-
-
 .last-section p{
     color: #fff;
     
@@ -472,8 +504,8 @@ h1{
 .myinfo{
     display: flex;
     align-items: center;
-    /* width: 140px; */
-    /* outline: solid 4px rgb(23, 126, 199); */
+    margin-right: 10%;
+    margin-top: -3%;
 }
 
 .information{
@@ -491,7 +523,6 @@ h1{
 
 
 .information li a h2{
-  padding-left: 5px;
   font-size:15px;
   font-family: Montserrat;
 }
@@ -499,21 +530,33 @@ h1{
 .social{
    /* outline: solid 2px rgb(106, 52, 27); */
    /* flex-grow:1; */
+    margin-top: 9%;
+    margin-bottom: 5%; 
+    margin-left: 50%;
 
 }
 
 .rights{
-    /* outline: solid 2px rgb(27, 2, 2); */
+    /* outline: solid 5px rgb(210, 29, 29);  */
     justify-content: end;
     
 }
 
+.rights p{
+    font-family: Bebas Neue;
+    color: white;
+    margin-top: 57%;
+   
+     /* padding-top: 40%; */
+} 
+
+
 .qysh{
-    /* outline: solid 4px rgb(10, 128, 212); */
+    /* outline: solid 5px rgb(31, 149, 234);  */
     display:flex;
     justify-content: space-evenly;
+    margin-top: -15%;
 }
-
 .social-link{
     display:flex;
     list-style: none;
@@ -522,29 +565,61 @@ h1{
 .social-link li a{
     color:white;
     padding:5px;
-    
 }
 
 .secondlogo{
-    /* outline: solid 2px rgb(23, 199, 70); */
-    padding: 20px;   
-    padding-top: 60px;
-    max-width:700px;
+    padding: 6% 15% 20% 5%;   
+
 }
 
 .secondlogo p{
-    font-size: 30px;
-    font-family: Montserrat;
-
-    
+    font-size: 19px;
+    font-family: Montserrat;  
 }
 
 .together{
     display: flex;
-    min-height:90vh;
     color:white;
+    background-image: url(images/back.png);
+    /* opacity: calc(0.92); */
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 5%;
 }
 
 .term{
     padding:10px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    
+    
+
+
+
+
+
+
+}
+@media only screen and (min-width: 992px) {
+
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 600px) {
+
+
+
+
+
+
 }
