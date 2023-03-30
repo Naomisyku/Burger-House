@@ -31,6 +31,7 @@
 
 .navi1{
    padding: 20px;
+   position:relative;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -69,8 +70,6 @@
     display: inline-block;
     margin-left: 30px;
     margin-top: 5px;
-    
-
 }
 
 .main-navi li a{
@@ -591,31 +590,427 @@ h1{
     padding:10px;
 }
 
+
+
+
+/* butoni per burger menu per me e pa komentojme display:none */
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    /* display: none; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    margin:5px;
+    width: 100%;
+    background-color: rgb(56, 53, 53);
+    border-radius: 10px;
+}
+
+
+
 @media only screen and (min-width: 1200px) {
 
     
     
 
-
-
-
-
-
 }
 @media only screen and (min-width: 992px) {
-
-
-
-
-}
-
-
-@media only screen and (min-width: 768px) {
+    
 
 
 }
 
-@media only screen and (min-width: 600px) {
+
+@media only screen and (max-width: 768px) {
+    .navi1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .main-navi {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main-navi li {
+        text-align: center;
+    }
+
+    .main-navi li a {
+        padding: .5rem 1rem;
+    }
+
+    /* .navbar-links.active {
+        display: flex;
+    } */
+
+
+    .hero-text-box h5{
+        font-size:12px;
+        margin-bottom:10px
+    }
+
+
+    .hero-text-box h1{
+        font-size:30px;
+        margin-left:-45%;
+    }
+
+    .imgOne{
+        min-height:20px;
+        min-width:15px
+    }
+
+    .sec2{
+      padding-top: 15px;
+    }
+
+    .title{
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .burgerat{
+        padding-top: 45px;
+    }
+
+    .section-burger{
+        flex-direction:column;
+    }
+
+    .texttwo{
+       padding-bottom: 15px;
+       display: flex;
+       flex-direction: column;
+       margin-top: -25%;
+    }
+
+    .textthird{
+        margin-top: -25%; 
+    }
+
+    .row{
+        flex-direction:column;
+    }
+
+    .burger-form{
+        height:60%;
+        width:60%;
+    }
+
+    .tabasco{
+        height:40%;
+        width:40%;
+    }
+    
+    /* .fries{
+        display:none;
+    } */
+
+    .form-title h4{
+        padding-top:30px;
+        font-family: Bebas Neue;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .form-title h2{
+        font-family: Alfa Slab One;
+        font-size: 20px;
+        font-weight: 200;
+        color: rgb(53, 11, 11);
+        text-shadow: white;
+    }
+
+    .inpute{
+        font-size: 12px;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        
+    }
+
+    .btn3{
+        background-color: red;
+        font-family: Alfa Slab One;
+        font-size: 12px;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        border: none;
+        text-align: center;
+    
+    }
+
+    .image-mamamia{
+        height:40%;
+        width:40%;
+    }
+
+    .image-one{
+        height:80%;
+        width:80%;
+        margin-top:30%;
+        margin-left:30%;
+    }
+
+    .kuqo{
+        position: absolute;
+        top:60%;
+        left:40%;
+        width: 90px;
+        height: 90px;
+        padding: 10px;
+        border-radius: 60%;
+        background-color: red;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .circle{
+        outline: dashed 2px white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .leku{
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size:200%;
+    }
+    
+    .leku2{
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size:150%;
+    }
+
+    .mySlides{
+height:100px;
+width:250px;
+    }
+
+    .firstevent p{
+        font-size:12px;
+    }
+    
+    .firstevent h1{
+        font-size:12px;
+    }
+
+    .image-two{
+height:220px;
+width: 300px;
+    }
+
+    .imgOne{
+height:220px;
+width: 300px;
+    }
+
+    .imgTwo{
+        height:220px;
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .secu{
+        background-color: #f8b33c;
+        max-height: 100%;
+        padding-bottom: 40%;
+        
+    }
+
+    .logo{
+        height: 7%;
+        width: 42%;
+        margin-top: -1%;
+    }
+
+    .main-navi{
+        list-style: none;
+        margin-top: 3%;
+        /* outline: solid 3px red; */
+    }
+
+    
+    .main-navi h3{
+        font-family: 'Bebas Neue';
+        font-size: 19px;
+        font-weight: 100;
+    }
+    
+    
+    .main-navi li{
+        margin-left: 3px;
+        margin-top: 9px;
+    }
+
+    .main-navi li a{
+        font-size: 18px ;
+    }
+
+    .hero-text-box h5{
+        padding:5px;
+        font-size: 10px;
+    }
+    
+    .hero-text-box h1{
+        font-size: 50px;
+        
+    }
+
+    .foods{
+        top:30%;
+        left: 10%; 
+        
+    }
+
+    /* .food{
+        width: 100%;
+        height: 20%;
+    } */
+
+    .title h3{
+        font-size: 20px;
+    }
+
+    .btn1{
+        font-size: 12px;
+        padding: 7px;
+        margin: 8px;
+    }
+
+
+    .title h4{
+        font-size: 9px;
+        padding-top: 3px;
+    }
+
+
+    .btn{
+        font-size: 8px;
+        margin: 2px;
+        padding: 5px;
+   }   
+
+   .burger-photo h2{
+    font-size: 13px;
+    padding: 9px;
+    
+}
+
+    .burger-photo h4{
+    font-size: 10px;
+    margin:10px;
+   }
+
+   .textone{
+    /* position: absolute;
+    margin-top: -25%;
+    color: #fff;
+    margin-left: 2%;
+    font-family: Bebas Neue;
+    font-size: 30px; */
+   }
+   
+   .texttwo{
+       margin-top: -39%;
+       margin-left: 5%;
+       font-size: 20px;
+   }
+   
+   .textthird{
+       margin-top: -39%;
+       margin-left: 5%;
+       font-size: 20px;
+   }
+
+   .form-title h4{
+    padding-top:15px;
+    font-size: 15px;
+    font-weight: 100;
+    }
+
+    .form-title h2{
+    font-size: 20px;
+    font-weight: 200;
+    }
+
+    .inpute{
+        font-size: 9px;
+        margin: 10px;
+        padding: 5px;
+        
+    }
+
+    .btn3{
+        width: 130px;
+        font-size: 9px;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .secondlogo img{
+        width: 100%;
+    }
+
+    .secondlogo p{
+        font-size: 9px;
+    }
+
+    .information li a h2{
+        font-size:6px;
+    }
+
+    .social-link li a{
+        padding:4px;
+        margin-top: -1%;
+    }
+
+    .rights p{
+        margin-top: -1%;
+        padding-left: 33%;
+        font-size: 44%;  
+    } 
+
+    
+
+    
+
+
+
 
 
 

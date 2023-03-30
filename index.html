@@ -16,13 +16,21 @@
         <nav class="navi1">
             
                 <img src="images/LOGO1.png" alt="American Logo" class="logo">
-                <ul class="main-navi">
+                <a href="#" class="toggle-button">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </a>
+                <div class="navbar-links">
+                  <ul class="main-navi">
                     <h3>Express Delivery +1234567890</h3>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">Our Story</a></li>
                     <li><a href="#">Contact Us</a></li> 
                 </ul>
+                </div>
+                
                 
             
         </nav>
@@ -38,7 +46,7 @@
       </div>
 
       <div class="foods">
-        <img src="images/image1.png" alt="Food">
+        <img class="image-one" src="images/image1.png" alt="Food" >
         <div class="kuqo">
           <div class="circle">
           <h3><span class="leku">$5</span>.49 <span class="leku2">only</span></h3>
@@ -59,16 +67,21 @@
     <div class="section-burger">
 
         <div class="firstSection">
-          <img src="images/img2.png" alt="">
+          <img class="image-two" src="images/img2.png" alt="" >
           <div class="textone">TRY IT TODAY <br> MOST POPULAR BURGER</div>
         </div>    
 
         <div class="secondSection ">
-              
-          <img class="imgOne" src="images/img3.png" alt="">
-          <div class="texttwo">TRY IT TODAY <br> MORE FUN <br> MORE TASTE</div>
-          <img class="imgTwo" src="images/img4.png" alt="">
+          <!-- <div class=""> -->
+            <img class="imgOne" src="images/img3.png" alt="">
+          <div class="texttwo"><h4>TRY IT TODAY</h4> <h4>MORE FUN</h4>  <h4>MORE TASTE</h4> </div>
+          <!-- </div> -->
+          
+          <!-- <div class=""> -->
+            <img class="imgTwo" src="images/img4.png" alt="">
           <div class="textthird">TRY IT TODAY <br> FRSH & CHILI</div>
+          <!-- </div> -->
+          
               
         </div>
     </div>
@@ -83,7 +96,7 @@
         <div class="burgerat">
             <div class="row">
                 <div class="burger-photo">
-                    <img src="images/Burger.png" alt="">
+                    <img class="image-three" src="images/Burger.png" alt="" >
                     <h2>LOREM IPSUM DOLOR</h2>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
                      <button class="btn">ORDER NOW</button>
@@ -95,7 +108,7 @@
                      <button class="btn">ORDER NOW</button>
                 </div>
                 <div class="burger-photo">
-                    <img src="images/Burger.png" alt="">
+                    <img class="image-four" src="images/Burger.png" alt="" >
                     <h2>LOREM IPSUM DOLOR</h2>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h4>
                      <button class="btn">ORDER NOW</button>
@@ -172,7 +185,7 @@
       
 
       <div class="fries">
-        <img src="images/Image12.png" alt="">
+        <img class="image-mamamia" src="images/Image12.png" alt="">
       </div>
     
 
@@ -184,7 +197,7 @@
       <div class="together">
         <div class="secondlogo">
         
-          <img src="images/Place Your Logo Here.png" alt="">
+          <img class="logo-here" src="images/Place Your Logo Here.png" alt="">
           <br>
           <br>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis facere consectetur doloribus beatae quasi nobis tempora provident libero expedita modi, facilis iste ad quo eaque mollitia placeat voluptatibus porro inventore.</p>
@@ -246,6 +259,16 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block"; 
 }
 
+</script>
+
+<script>
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
 </script>
 
 
